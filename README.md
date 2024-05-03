@@ -33,6 +33,9 @@ Se filtraron las monedas utilizando el atributo "Currency Code" del JSON.
 
 Puedes elegir entre una variedad de monedas populares:
 
+**ACTUALIZACIÓN: 03/05**
+**Soporte para más monedas: **Se amplía la lista de monedas disponibles para la elección, permitiendo al usuario convertir entre las opciones que brinda la API.
+
 **Peso Argentino (ARS),** **Real Brasileño (BRL),** **Dólar Estadounidense (USD).**
 
 **_Interfaz de usuario:_**
@@ -40,6 +43,14 @@ Puedes elegir entre una variedad de monedas populares:
 La interfaz textual de usuario es simple y fácil de usar.
 Simplemente sigue las instrucciones de la consola para seleccionar las monedas y realizar la conversión.
 
+**ACTUALIZACIÓN: 03/05:**
+**Historial de conversiones:**
+El usuario podrá ver sus conversiones realizadas.
+**Registro con marca de tiempo:** 
+Utiliza las funciones de la biblioteca java.time para creae registro de las conversiones, sobré que monedas se convirtieron y en qué momento.
+**Archivo**
+El usuario tendra una dirección que deberá colocar en su explorador de archivos una vez terminadas las conversiones.
+Allí podra visualizar estos dos ultimos items.
 ## Ejecución del proyecto
 1- Ejecuta la clase Main para iniciar la aplicación.    
 2- Sigue las instrucciones en la consola para realizar conversiones de moneda.
