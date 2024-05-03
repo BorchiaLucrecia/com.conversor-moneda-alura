@@ -1,38 +1,27 @@
 package entidad;
 
 public class Moneda {
-    private double cantidad;
     private String monedaOrigen;
+    private double cantidad;
     private String monedaDestino;
 
-    public Moneda(double cantidad, String monedaOrigen, String monedaDestino) {
-        this.cantidad = cantidad;
+    public Moneda( String monedaOrigen,double cantidad, String monedaDestino) {
+
         this.monedaOrigen = monedaOrigen;
-        this.monedaDestino = monedaDestino;
-    }
-
-    // Getters y setters
-    public double getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(double cantidad) {
         this.cantidad = cantidad;
+        this.monedaDestino = monedaDestino;
     }
 
     public String getMonedaOrigen() {
         return monedaOrigen;
     }
 
-    public void setMonedaOrigen(String monedaOrigen) {
-        this.monedaOrigen = monedaOrigen;
+    public double getCantidad() {
+        return cantidad;
     }
 
     public String getMonedaDestino() {
         return monedaDestino;
     }
 
-    public void setMonedaDestino(String monedaDestino) {
-        this.monedaDestino = monedaDestino;
-    }
 }
